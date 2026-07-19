@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://tumblersouvenir.com/#organization",
+      "name": "Vendor Tumbler Souvenir",
+      "url": "https://tumblersouvenir.com",
+      "logo": "https://tumblersouvenir.com/assets/img/LOGO%20TUMBLER%20SOUVENIR.webp",
+      "image": "https://tumblersouvenir.com/assets/img/portfolio/bannerproduk.webp",
+      "telephone": "+622155557890",
+      "email": "hello@tumblersouvenir.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sudirman Kav. 52-53",
+        "addressLocality": "Jakarta Selatan",
+        "postalCode": "12190",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.224354,
+        "longitude": 106.809823
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vendortumblersouvenir",
+        "https://www.instagram.com/vendortumblersouvenir",
+        "https://www.linkedin.com/company/vendortumblersouvenir"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tumblersouvenir.com/#website",
+      "url": "https://tumblersouvenir.com",
+      "name": "Vendor Tumbler Souvenir",
+      "publisher": {
+        "@id": "https://tumblersouvenir.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://tumblersouvenir.com/#webpage",
+      "url": "https://tumblersouvenir.com",
+      "name": "Vendor Tumbler Souvenir - Souvenir Kantor & Corporate Gift Set Premium",
+      "isPartOf": {
+        "@id": "https://tumblersouvenir.com/#website"
+      },
+      "about": {
+        "@id": "https://tumblersouvenir.com/#organization"
+      },
+      "description": "Vendor Tumbler Souvenir adalah penyedia souvenir kantor premium dan corporate gift set eksklusif di Indonesia. Melayani pembuatan welcoming kit karyawan, agenda, tumbler, dan merchandise perusahaan dengan kelengkapan Faktur Pajak PPN 11%."
+    }
+  ]
+}

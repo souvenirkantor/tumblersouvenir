@@ -1,0 +1,45 @@
+# robots.txt - Vendor Tumbler Souvenir B2B Portal
+# https://tumblersouvenir.com
+
+User-agent: *
+Allow: /
+Disallow: /forms/
+Disallow: /update_links_v2.py
+Disallow: /starter-page.html
+Disallow: /Readme.txt
+Disallow: /schema.json
+
+# Allow major search engine bots
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+# Allow AI crawlers for Search Engine Optimization
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Anthropic-ai
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: CCBot
+Allow: /
+
+# Sitemap
+Sitemap: https://tumblersouvenir.com/sitemap.xml
