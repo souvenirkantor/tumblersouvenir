@@ -4683,6 +4683,11 @@ section,
 .blog-author-widget img {
   max-width: 120px;
   margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 50% !important;
 }
 
 .blog-author-widget h4 {
@@ -4925,15 +4930,14 @@ img.rounded-circle {
 
 /* Fix for related posts image sizes */
 .recent-posts-widget .post-item img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-
-.recent-posts-widget .post-item img {
   width: 80px !important;
   height: 80px !important;
+  object-fit: cover !important;
+}
+
+/* Force author images to be perfectly round */
+img.rounded-circle, .author-avatar, .blog-author-widget img {
+  border-radius: 50% !important;
+  aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
 }
